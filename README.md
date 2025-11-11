@@ -34,35 +34,38 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
 <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/edf33429-8eea-4857-a991-c2d7706fc787" />
 
 3. Select the **target microcontroller** or board and click **Next**.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
+  <img width="1919" height="1199" alt="Screenshot 2025-10-28 203723" src="https://github.com/user-attachments/assets/109bd30f-4806-455b-b1c8-2631166f3efc" />
 
 
 
 4. Name the project.
-   <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
+   <img width="1918" height="593" alt="image" src="https://github.com/user-attachments/assets/35b39b05-f754-475b-982a-6038fbb82d8e" />
 
 5. The corresponding `.ioc` file will be generated automatically.
-  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
+  <img width="1918" height="1199" alt="Screenshot 2025-10-28 203910" src="https://github.com/user-attachments/assets/c682290e-b856-4d8f-8d21-ff1ee7180abf" />
+<img width="1736" height="1199" alt="Screenshot 2025-10-28 204329" src="https://github.com/user-attachments/assets/2da585be-047f-4e80-859e-fbdd5586d0b8" />
+ 
 
 6. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/acc4f1c4-5e33-431b-8a76-3b102016baa6" />
-<img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/b7abcd80-797d-451f-a7c3-23f303822423" />
+   <img width="1919" height="1199" alt="Screenshot 2025-10-28 204350" src="https://github.com/user-attachments/assets/0a62f6e1-f224-4ecb-8e2e-e726e3cb4f20" />
+
 
 7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/dbf4b205-5db9-4e9b-8150-94f441c8b116" />
- 
+   <img width="1919" height="1199" alt="Screenshot 2025-10-28 204610" src="https://github.com/user-attachments/assets/f5565dff-516c-4aef-ba81-1548a0f13d41" />
+<img width="1919" height="1199" alt="Screenshot 2025-10-28 205054" src="https://github.com/user-attachments/assets/993f6cc7-00dd-4aba-ac61-9bef163dc896" />
+
 8. Edit the generated main program as required.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/05b39060-35d6-420d-9f4d-8721439bd82f" />
-<img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
+   <img width="716" height="261" alt="Screenshot 2025-10-28 222542" src="https://github.com/user-attachments/assets/be2169b0-bdcc-4e18-b896-f3f731f29187" />
 
 9. Click **Project → Build All**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
+    <img width="725" height="251" alt="Screenshot 2025-10-28 222628" src="https://github.com/user-attachments/assets/359040dc-7abc-48a3-879d-3b82959e990d" />
+
 
 10. Link the **HEX file** using the post-build process.
-    <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
+    <img width="725" height="251" alt="Screenshot 2025-10-28 222628" src="https://github.com/user-attachments/assets/3763744a-a04b-405a-8a51-733e54eaf5d7" />
 
 11. Click **Debug** and connect the **STM Nucleo Board**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
+   <img width="1919" height="1199" alt="Screenshot 2025-10-28 222724" src="https://github.com/user-attachments/assets/4a9f9002-c6b9-47f6-8d6c-994bb9afe012" />
 
 13. Click **Run** to execute the program.
     
@@ -103,8 +106,12 @@ int main(void)
 ---
 ### OUTPUT
 CASE 1: LED ON 
+![WhatsApp Image 2025-10-28 at 20 09 22](https://github.com/user-attachments/assets/5dd65df8-4a99-4833-926c-091d8b298b8d)
+
 
 CASE 2: LED OFF
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/c7042b88-c2d2-4a30-96df-d2219c6a8f08" />
+
 
 ---
 ### RESULT
